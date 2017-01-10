@@ -12,13 +12,13 @@ Setup
 1. Install dependencies:
 
     \# for ubuntu, debian, deepin, etc.
-    sudo apt-get install zenity xdotool xclip git
+    sudo apt-get install yad xdotool xclip git
 
     \# for fedora, redhat, centos, etc.
-    sudo yum install zenity xdotool xclip git
+    sudo yum install yad xdotool xclip git
 
     \# for opensuse
-    sudo zypper install zenity xdotool xclip git
+    sudo zypper install yad xdotool xclip git
 
 2. Clone repo to local:
 
@@ -35,3 +35,14 @@ My favorite shortcut is Ctrl+\`.
 \# for kde: https://userbase.kde.org/System\_Settings/Shortcuts\_and\_Gestures
 
 \# for unity: https://help.ubuntu.com/stable/ubuntu-help/keyboard-shortcuts-set.html
+
+Usage
+-----
+
+1. Launch factorio, and enter game
+
+2. Toggle shortcut
+
+3. Type whatever you want
+
+4. Press enter

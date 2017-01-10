@@ -2,17 +2,21 @@
 
 WINID=`xdotool search --class Factorio | head -1`
 if [ -z "$WINID" ]; then
-	zenity --error --text 'Factorio window not found'
+	yad --error --text 'Factorio window not found' --title 'Factorio IM assistant by factorio-realms.com'
 	exit 0
 fi
 
 xdotool type --window "$WINID" '`'
 
-TEXT=`zenity --entry`
+TEXT=`yad --entry --title 'Factorio IM assistant by factorio-realms.com' \
+		  --width 400 --entry-text="Type text here" --center`
+
 
 if [ ! -z "$TEXT" ]; then
 	echo "$TEXT" | xclip -selection clipboard
+	sleep 0.05
 	xdotool key --window "$WINID" ctrl+v
+	sleep 0.05
 fi
 
 xdotool key --window "$WINID" Return
