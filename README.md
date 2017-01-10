@@ -11,13 +11,13 @@ Setup
 
 1. Install dependencies:
 
-    # for ubuntu, debian, deepin, etc.
+    \# for ubuntu, debian, deepin, etc.
     sudo apt-get install zenity xdotool xclip git
 
-    # for fedora, redhat, centos, etc.
+    \# for fedora, redhat, centos, etc.
     sudo yum install zenity xdotool xclip git
 
-    # for opensuse
+    \# for opensuse
     sudo zypper install zenity xdotool xclip git
 
 2. Clone repo to local:
