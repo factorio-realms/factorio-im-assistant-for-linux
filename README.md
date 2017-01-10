@@ -46,3 +46,5 @@ Usage
 3. Type whatever you want
 
 4. Press enter
+
+![example.jpg](https://github.com/factorio-realms/factorio-im-assistant-for-linux/blob/master/example.jpg?raw=true)
