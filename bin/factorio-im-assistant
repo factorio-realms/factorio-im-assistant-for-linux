@@ -1,0 +1,18 @@
+#!/bin/sh
+
+WINID=`xdotool search --class Factorio | head -1`
+if [ -z "$WINID" ]; then
+	zenity --error --text 'Factorio window not found'
+	exit 0
+fi
+
+xdotool type --window "$WINID" '`'
+
+TEXT=`zenity --entry`
+
+if [ ! -z "$TEXT" ]; then
+	echo "$TEXT" | xclip -selection clipboard
+	xdotool key --window "$WINID" ctrl+v
+fi
+
+xdotool key --window "$WINID" Return
