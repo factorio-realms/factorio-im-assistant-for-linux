@@ -6,6 +6,9 @@ by [factorio-realms.com](https://factorio-realms.com)
 
 This tool does only support Linux.
 
+You can find Windows version here:  
+https://github.com/factorio-realms/factorio-im-assistant
+
 Setup
 -----
 
@@ -39,12 +42,12 @@ My favorite shortcut is Ctrl+\`.
 Usage
 -----
 
-1. Launch factorio, and enter game
+1. Launch factorio, and join game
 
 2. Toggle shortcut
 
 3. Type whatever you want
 
-4. Press enter
+4. Press `Enter`
 
 ![example.jpg](https://github.com/factorio-realms/factorio-im-assistant-for-linux/blob/master/example.jpg?raw=true)
